@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://previews.123rf.com/images/alekss/alekss1503/alekss150300154/37125811-the-many-dollars-money-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 40%;
+  height: 40%;
+  border: 3px white solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-container {
+  display: flex;
+  flex-direction: column;
+}
+#header {
+  background-color: rgb(224, 0, 0);
+  color: white;
+  height: 25%;
+}
+h1 {
+  text-transform: uppercase;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  line-height: 0.8;
+}
+#content {
+  background-color: black;
+  color: white;
+  height: 75%;
+  font-size: 26px;
+}
+p {
+  height: 33.33%;
+}
+#in {
+  height: 33.33%;
+}
+input,
+button {
+  font-size: 22px;
+  margin: 0 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  align-self: center;
+}
+#submit,
+button {
+  background-color: rgb(236, 236, 0);
+  font-weight: 600;
+}
+button {
+  position: absolute;
+  top: 120%;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px black solid;
+  box-shadow: 0 10px black;
+}
+#submit:hover,
+button:hover {
+  background-color: rgb(206, 206, 0);
+  cursor: pointer;
+}
+button:active {
+  box-shadow: 0 6px black;
+  transform: translateY(4px);
+}
+#history {
+  border: 3px white solid;
+  color: white;
+  background-color: black;
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  left: 110%;
+}
+h2 {
+  height: 25%;
+  background-color: rgb(224, 0, 0);
+  border-bottom: 3px white solid;
+}
+#history > p {
+  height: 25%;
+  font-size: 35px;
+  color: yellow;
+}
